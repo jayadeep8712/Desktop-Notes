@@ -1,0 +1,54 @@
+.sticky-note {
+  position: fixed;
+  min-width: 200px;
+  min-height: 150px;
+  background-color: #fff9c4;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  border-radius: 3px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  resize: both;
+  overflow: auto;
+  z-index: 10000;
+}
+
+.sticky-note-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  cursor: move;
+}
+
+.sticky-note-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.sticky-note-control {
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.sticky-note-content {
+  min-height: 100px;
+  outline: none;
+}
+
+.sticky-note-footer {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #666;
+}
+
+.reminder-badge {
+  background-color: #ff5252;
+  color: white;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
